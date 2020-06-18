@@ -1,4 +1,6 @@
 # BlackJack
+UPDATE WORK to PY3!
+
 Simple Python text based Black Jack game
 
 #Comments
@@ -137,7 +139,7 @@ done:
     - Does seem to be finished for all intents and purposes. :D
 
 30.03.17
- - Found bug with being broke but game still asks to make a bet. FIXED
+ NEED FIXING - Found bug with being broke but game still asks to make a bet. 
 
 15.05.17
     - Fixed broke but still asking for bet bug. Now resets back to start. Yay.
@@ -148,10 +150,10 @@ done:
     - Found side bet on insurance wnot paying out when dealer has more than 2 cards in blackjack - Fix was to remove the 2 card requirement... Likely an oversight of mine mixing blackjack up with 'natural' blackjack. Still needs confirming fixed
     - Found broken handeling of split pairs where if the first hand gets a black jack it is recognised as a natural. I added a bit in the natural check function which checks that SecHandValue == False. Still need sconfirming fixed
     - Found bug where an ace insurance check happens on circumstances other than dealers first card- Fixed. made insurance check for only one card held.
-    
-18.06.20
-    - Updated for Python3!
-    - Adjusted mistake where insurance bet was > 2.5 when it should have been >= 2.5
+
+18.06.20 
+    - Updated to Python 3!
+    - an error in insurance bet where it was > 2.5 but should have been >= 2.5
     
 TO DO:
     -Bug testing needed still on general betting etc.
