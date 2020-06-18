@@ -461,7 +461,7 @@ This is the popular six-deck game version as used in casinos.
     input("Press enter to return to start menu")
     
     def titleArt():
-        print("""
+        print(r"""
 ##########################################
 #|======\ |       /=====\ /=====\ |     |#
 #|      / |       |     | |       |    / #
@@ -540,7 +540,7 @@ Programmed by James W Heath.
                         input("\n2nd hand is a Blackjack stand off. No payout. Bet collected.")
                         player.hand = []
                         player.handValue = []
-                        player.bank += player.Secbet
+                        player.bank += player.secBet
                         player.secBet = []
                     elif player.secHandValue == dealer.handValue: # 2nd hand is stand off
                         displayInfo()
