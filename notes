@@ -1,0 +1,5 @@
+Run this to create a virtual environment inside the working dir:
+python3 -m venv env
+
+Run this from inside the project dir to activate the venv:
+./env/Scripts/activate
